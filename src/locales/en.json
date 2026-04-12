@@ -1,0 +1,112 @@
+{
+  "header": {
+    "logoName": "Dr. Ahmed Tarek",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "beforeAfter": "Success Stories",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Smile with Confidence",
+    "titlePart2": "Our Priority",
+    "subtitle": "Enjoy world-class dental care using the latest technologies with a team of experienced professionals dedicated to your perfect smile.",
+    "expertDoctor": "Expert Doctor",
+    "latestTechnology": "Latest Technology",
+    "fullSterilization": "100% Sterilization"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for dental care for the whole family",
+    "fillingRootCanal": "Root Canal Filling",
+    "fillingRootCanalDesc": "Advanced root canal treatment to save infected and painful teeth.",
+    "fillingRegular": "Regular Filling",
+    "fillingRegularDesc": "Safe and effective filling for simple cavities and tooth restoration.",
+    "fillingCosmetic": "Cosmetic Filling",
+    "fillingCosmeticDesc": "Cosmetic filling with color matching natural teeth for a beautiful appearance.",
+    "fillingRegularKids": "Regular Filling for Kids",
+    "fillingRegularKidsDesc": "Safe and gentle filling specifically for children without pain or fear.",
+    "fillingRootCanalKids": "Root Canal Treatment for Kids",
+    "fillingRootCanalKidsDesc": "Safe and effective root canal treatment for children preserving natural teeth.",
+    "fixedProsthetics": "Fixed Prosthetics",
+    "fixedProstheticsDesc": "Fixed dental prosthetics that are safe, durable and look like natural teeth.",
+    "removableProsthetics": "Removable Prosthetics",
+    "removableProstheticsDesc": "Removable prosthetics that can be easily removed and cleaned.",
+    "scaling": "Scaling",
+    "scalingDesc": "Professional deep cleaning to remove tartar, plaque and treat gum inflammation.",
+    "extraction": "Tooth Extraction",
+    "extractionDesc": "Safe and effective tooth extraction for damaged teeth using modern techniques.",
+    "teethCleaning": "Teeth Cleaning",
+    "teethCleaningDesc": "Professional cleaning to remove tartar and plaque, keeping your teeth healthy and bright.",
+    "teethWhitening": "Teeth Whitening",
+    "teethWhiteningDesc": "Advanced whitening techniques for a bright smile in just one session.",
+    "dentalImplants": "Dental Implants",
+    "dentalImplantsDesc": "A permanent solution for replacing missing teeth that looks and feels like natural teeth.",
+
+    "rootCanal": "Root Canal Treatment",
+    "rootCanalDesc": "Advanced treatment to save infected or damaged teeth.",
+    "hollywoodSmile": "Hollywood Smile",
+    "hollywoodSmileDesc": "Comprehensive smile enhancement with veneers and cosmetic procedures."
+  },
+  "about": {
+    "meetDoctor": "Meet Our Doctor",
+    "doctor_name": "Dr. Ahmed Tarek",
+    "specialty": "Doctor of Dental Medicine - Specialist in Dental Restorations and Cosmetics",
+    "bio": "Dr. Ahmed has practical and real experience working with patients and various dental cases. He works with professionalism and expertise to improve his patients' smiles. He is committed to providing safe and personalized care using the latest advanced dental techniques and methods.",
+    "experience": "Years of Experience",
+    "certifications": "Certifications & Specializations",
+    "cert1": "Bachelor's Degree in Dentistry",
+    "cert2": "Oral Surgery",
+    "cert3": "Advanced Cosmetic Dentistry"
+  },
+  "beforeAfter": {
+    "title": "Success Stories",
+    "subtitle": "See real patient results with our advanced dental treatments",
+    "before": "Before",
+    "after": "After"
+  },
+  "testimonials": {
+    "title": "Patient Reviews",
+    "readMore": "Read More",
+    "testimonial1": "Excellent service and a very professional doctor! I didn't feel any pain and the results were amazing.",
+    "testimonial2": "The best dental clinic I've ever visited. The staff is friendly and the clinic is very clean.",
+    "testimonial3": "Thank you for the great attention and excellent care. I will definitely return.",
+    "verified": "Verified Review"
+  },
+  "blog": {
+    "title": "Dental Tips & Articles",
+    "subtitle": "Stay informed with latest medical information and tips",
+    "readMore": "Read More",
+    "article1Title": "10 Tips for Better Oral Health",
+    "article1Desc": "Discover the best practices to keep your teeth and gums healthy throughout your life.",
+    "article2Title": "The Truth About Teeth Whitening",
+    "article2Desc": "Find out what really works and the myths in the world of teeth whitening.",
+    "article3Title": "Dental Implants: What You Need to Know",
+    "article3Desc": "Everything about the procedure, benefits, and post-procedure care.",
+    "article4Title": "How to Care for Your Braces",
+    "article4Desc": "Essential tips to keep your braces clean and on track.",
+    "article5Title": "Understanding Root Canal Treatment",
+    "article5Desc": "Explaining the procedure: what happens, why it's needed, and recovery tips.",
+    "article6Title": "The Relationship Between Oral Health and Overall Health",
+    "article6Desc": "How your dental health affects your overall health and quality of life.",
+    "newsletter": "Newsletter",
+    "subscribeText": "Get the latest tips and offers directly to your inbox",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you",
+    "callUs": "Call Us",
+    "email": "Email",
+    "location": "Location",
+    "addressLine1": "City Council Street - In front of Misr Pharmacy Al Safwa Tower - 3rd Floor",
+    "addressLine2": "Dakahlia - Dekernes",
+    "workingHours": "Working Hours",
+    "followUs": "Follow Us"
+  },
+  "footer": {
+    "copyrightLine": "Dr. Ahmed Tarek | Complete oral and dental care"
+  }
+}
