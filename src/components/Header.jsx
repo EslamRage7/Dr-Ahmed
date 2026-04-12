@@ -55,6 +55,11 @@ export default function Header() {
             className="nav-link">
             {t("header.contact")}
           </button>
+          <button
+            onClick={handleLanguageToggle}
+            className="nav-link lang-btn-nav">
+            {i18n.language === "en" ? "AR" : "EN"}
+          </button>
         </nav>
 
         <div className="header-actions desktop-only">
@@ -64,9 +69,6 @@ export default function Header() {
         </div>
 
         <div className="mobile-actions">
-          <button onClick={handleLanguageToggle} className="lang-btn-mobile">
-            {i18n.language === "en" ? "AR" : "EN"}
-          </button>
           <div
             className="mobile-menu-toggle"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
