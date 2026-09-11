@@ -1,0 +1,193 @@
+@import "./variables.css";
+
+/* ============================================
+   SERVICES SECTION
+   ============================================ */
+
+.services {
+  background:
+    radial-gradient(
+      900px 500px at 10% 10%,
+      rgba(37, 99, 235, 0.08),
+      transparent 60%
+    ),
+    radial-gradient(
+      700px 420px at 90% 20%,
+      rgba(14, 165, 233, 0.07),
+      transparent 60%
+    ),
+    linear-gradient(135deg, #f8fbff 0%, #eef6ff 100%);
+  padding: var(--spacing-3xl) var(--spacing-2xl);
+}
+
+.services-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.service-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.95), #ffffff),
+    linear-gradient(135deg, rgba(37, 99, 235, 0.12), rgba(14, 165, 233, 0.12));
+  padding: 26px 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  box-shadow: 0 18px 30px rgba(37, 99, 235, 0.08);
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  animation: fadeIn 0.6s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 40px rgba(37, 99, 235, 0.16);
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(37, 99, 235, 0.08),
+    rgba(14, 165, 233, 0.02),
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+}
+
+.service-card:hover::before {
+  opacity: 1;
+}
+
+.service-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(37, 99, 235, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.12);
+}
+
+.service-title {
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+[dir="rtl"] .service-title {
+  font-size: 18px;
+}
+
+.service-description {
+  font-size: var(--font-sm);
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 0;
+  flex-grow: 1;
+}
+
+[dir="rtl"] .service-description {
+  font-size: var(--font-sm-rtl);
+}
+
+.services-cta {
+  background: linear-gradient(
+    135deg,
+    var(--primary-blue) 0%,
+    var(--secondary-blue) 100%
+  );
+  color: white;
+  padding: 32px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2);
+}
+
+.services-cta h3 {
+  font-size: var(--font-2xl);
+  margin-bottom: var(--spacing-md);
+}
+
+[dir="rtl"] .services-cta h3 {
+  font-size: var(--font-2xl-rtl);
+}
+
+.services-cta p {
+  font-size: var(--font-base);
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.9;
+}
+
+[dir="rtl"] .services-cta p {
+  font-size: var(--font-base-rtl);
+}
+
+.cta-btn {
+  background-color: white;
+  color: var(--primary-blue);
+  padding: var(--spacing-md) var(--spacing-2xl);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: var(--font-base);
+  transition: all var(--transition-base);
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .service-card {
+    padding: var(--spacing-lg);
+  }
+
+  .service-title {
+    font-size: var(--font-lg);
+  }
+
+  .services-cta {
+    padding: var(--spacing-lg);
+  }
+
+  .services-cta h3 {
+    font-size: var(--font-xl);
+  }
+}
